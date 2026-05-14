@@ -1,7 +1,19 @@
 [project]
 name = "knowledge-graphs"
 version = "0.1.0"
-description = "Add your description here"
+description = "Healthcare fraud detection via knowledge graphs — workshop project"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "networkx>=3.3",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "pyvis>=0.3.2",
+    "python-louvain>=0.16",
+    "faker>=25.0",
+    "scipy>=1.13",
+    "jupyter>=1.0",
+    "ipykernel>=6.29",
+]

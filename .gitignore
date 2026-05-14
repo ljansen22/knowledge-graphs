@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Generated data
+data/*.csv
+data/*.html
+data/*.png
+
+# Instructor-only files — add these manually if you want to commit them
+# notebooks/01_solution_fraud_detection.ipynb
+# data/claims.csv
